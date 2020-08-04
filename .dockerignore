@@ -1,0 +1,27 @@
+# KEEP Dockerfile and docker-compose.yml :unless sensitive
+# Dockerfile
+# docker-compose.yml
+
+# ignore .git and .cache folders
+.git
+.gitignore
+.cache
+
+# ignore all *.class files in all folders, including build root
+**/*.class
+
+# Laravel related files to ignore
+Makefile
+docker*.yml
+vendor
+storage/logs/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+storage/*.cache
+*.log
+.editorconfig
+.env
+.idea
+*.local.yml
