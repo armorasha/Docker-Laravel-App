@@ -9,7 +9,7 @@
 
 
 # Docker-Laravel-Redis App
-This Laravel-Redis (PHP framework) web application is built on Docker and its docker image is available here at Docker Hub. Instructions on pulling and using this docker image is in the README section of the docker repo. Try pulling the docker repo and running the app in your system from https://hub.docker.com/r/armoz13/laravel-redis-app.
+This Laravel-Docker-Redis (PHP framework) web application is built on Docker and its docker image is available here at Docker Hub. Instructions on pulling and using this docker image is in the README section of the docker repo. Try pulling the docker repo and running the app in your system from https://hub.docker.com/r/armoz13/laravel-redis-app.
 
 ## About Docker
 Docker takes away the development/production environment discrepancies that arise at various stages of development and deployment of applications by packaging the right environment together with the app including the correct version numbers.
